@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ProgramingLang</string>
+    <string name="title">Ttile</string>
+    <string name="description">Deskripsi</string>
+    <string name="about">About</string>
+    <string name="actionbar_title">10 Basa Terpopuler</string>
+    <string name="name_title">Romi Yusnandar</string>
+    <string name="email_title">yusromi04@gmail.com</string>
+    <string name="about_title">About Me</string>
+    <string name="email_missing">Aplikasi email tidak ditemukan</string>
+    <string name="internet_missing">Akses internet diperlukan</string>
+
+    <string-array name="data_title">
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>C#</item>
+        <item>Swift</item>
+        <item>TypeScript</item>
+        <item>Kotlin</item>
+        <item>Ruby</item>
+        <item>Rust</item>
+        <item>Go</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Python adalah bahasa pemrograman tingkat tinggi yang populer untuk pengembangan web, data science, dan otomatisasi skrip karena sintaksnya yang mudah dibaca.</item>
+        <item>JavaScript adalah bahasa pemrograman yang digunakan untuk mengembangkan situs web dinamis dan aplikasi berbasis browser, serta pada server melalui Node.js.</item>
+        <item>Java adalah bahasa pemrograman yang kuat dan serbaguna, sering digunakan untuk pengembangan aplikasi Android dan sistem besar berskala enterprise.</item>
+        <item>C# adalah bahasa pemrograman yang dikembangkan oleh Microsoft dan digunakan untuk pengembangan aplikasi Windows, game menggunakan Unity, dan aplikasi berbasis cloud.</item>
+        <item>Swift adalah bahasa pemrograman yang cepat dan aman yang dikembangkan oleh Apple untuk membangun aplikasi iOS, macOS, watchOS, dan tvOS.</item>
+        <item>TypeScript adalah superset dari JavaScript yang menambahkan tipe statis dan alat bantu pengembangan yang lebih baik, terutama pada aplikasi web berskala besar.</item>
+        <item>Kotlin adalah bahasa pemrograman modern yang interoperable dengan Java dan digunakan secara luas untuk pengembangan aplikasi Android.</item>
+        <item>Ruby adalah bahasa pemrograman dinamis yang terkenal dengan framework Ruby on Rails, yang memungkinkan pengembangan aplikasi web dengan cepat dan mudah.</item>
+        <item>A language empowering everyone to build reliable and efficient software.</item>
+        <item>Go adalah bahasa pemrograman yang dikembangkan oleh Google, terkenal karena efisiensinya dalam pengembangan aplikasi server-side dan sistem yang membutuhkan kinerja tinggi.</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://i.ibb.co.com/KGgw7qk/pythonlang.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png</item>
+        <item>https://i.ibb.co.com/kBxC6TP/java.png</item>
+        <item>https://i.ibb.co.com/Ybxzky7/csharp.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/9/96/App_Store_icon_for_Swift_Playgrounds.png</item>
+        <item>https://i.ibb.co.com/7rPYkxm/typescript.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f1/Ruby_logo.png</item>
+        <item>https://cdn.iconscout.com/icon/free/png-512/free-rust-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-6-pack-logos-icons-3030389.png</item>
+        <item>https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png</item>
+    </string-array>
+
+</resources>
