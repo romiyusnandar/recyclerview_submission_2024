@@ -9,9 +9,10 @@
     <string name="about_title">About Me</string>
     <string name="email_missing">Aplikasi email tidak ditemukan</string>
     <string name="internet_missing">Akses internet diperlukan</string>
-    <string name="app_version_title">Versi aplikasi</string>
-    <string name="release_version">Veri Aplikasi</string>
+    <string name="app_version_title">App info</string>
+    <string name="release_version">Versi Aplikasi</string>
     <string name="release_day">Dibuild Pada</string>
+    <string name="detail_title">Detail</string>
 
     <string-array name="data_title">
         <item>Python</item>
@@ -27,17 +28,18 @@
     </string-array>
 
     <string-array name="data_description">
-        <item>Python adalah bahasa pemrograman tingkat tinggi yang populer untuk pengembangan web, data science, dan otomatisasi skrip karena sintaksnya yang mudah dibaca.</item>
-        <item>JavaScript adalah bahasa pemrograman yang digunakan untuk mengembangkan situs web dinamis dan aplikasi berbasis browser, serta pada server melalui Node.js.</item>
-        <item>Java adalah bahasa pemrograman yang kuat dan serbaguna, sering digunakan untuk pengembangan aplikasi Android dan sistem besar berskala enterprise.</item>
-        <item>C# adalah bahasa pemrograman yang dikembangkan oleh Microsoft dan digunakan untuk pengembangan aplikasi Windows, game menggunakan Unity, dan aplikasi berbasis cloud.</item>
-        <item>Swift adalah bahasa pemrograman yang cepat dan aman yang dikembangkan oleh Apple untuk membangun aplikasi iOS, macOS, watchOS, dan tvOS.</item>
-        <item>TypeScript adalah superset dari JavaScript yang menambahkan tipe statis dan alat bantu pengembangan yang lebih baik, terutama pada aplikasi web berskala besar.</item>
-        <item>Kotlin adalah bahasa pemrograman modern yang interoperable dengan Java dan digunakan secara luas untuk pengembangan aplikasi Android.</item>
-        <item>Ruby adalah bahasa pemrograman dinamis yang terkenal dengan framework Ruby on Rails, yang memungkinkan pengembangan aplikasi web dengan cepat dan mudah.</item>
-        <item>A language empowering everyone to build reliable and efficient software.</item>
-        <item>Go adalah bahasa pemrograman yang dikembangkan oleh Google, terkenal karena efisiensinya dalam pengembangan aplikasi server-side dan sistem yang membutuhkan kinerja tinggi.</item>
+        <item>Python adalah bahasa pemrograman tingkat tinggi yang dikenal karena kemudahan pembacaannya dan penerapannya yang luas di bidang seperti pengembangan web, analisis data, kecerdasan buatan, komputasi ilmiah, dan otomasi. Bahasa ini cocok untuk pemula dan sangat baik digunakan untuk analisis data dan pembelajaran mesin.</item>
+        <item>JavaScript adalah bahasa pemrograman dinamis yang terutama digunakan untuk pengembangan web guna menambahkan elemen interaktif pada situs web. JavaScript cocok untuk membangun antarmuka web interaktif, aplikasi web real-time, serta aplikasi berbasis server menggunakan Node.js.</item>
+        <item>Java adalah bahasa pemrograman berbasis kelas dan berorientasi objek yang dirancang agar memiliki ketergantungan implementasi seminimal mungkin. Java cocok untuk pengembangan aplikasi Android, aplikasi enterprise, serta pengembangan back-end yang skalabel dengan kerangka kerja seperti Spring.</item>
+        <item>C# (C-Sharp) adalah bahasa modern berorientasi objek yang dikembangkan oleh Microsoft. Bahasa ini sangat cocok untuk membangun aplikasi desktop berbasis Windows, pengembangan game dengan Unity, serta aplikasi web dengan .NET. C# sangat serbaguna dan mudah dipelajari untuk berbagai jenis aplikasi.</item>
+        <item>Swift adalah bahasa pemrograman yang kuat dan intuitif yang diciptakan oleh Apple untuk membangun aplikasi iOS, macOS, watchOS, dan tvOS. Swift sangat cocok untuk pengembangan aplikasi di ekosistem Apple, dan dirancang untuk memaksimalkan kinerja serta keamanan aplikasi di platform tersebut.</item>
+        <item>TypeScript adalah superset JavaScript yang memiliki tipe statis dan dikompilasi menjadi JavaScript biasa. Bahasa ini cocok untuk pengembangan aplikasi web berskala besar dengan kode yang lebih aman dan mudah dipelihara, terutama bagi tim yang bekerja di proyek enterprise dan aplikasi dengan arsitektur kompleks.</item>
+        <item>Kotlin adalah bahasa pemrograman modern yang diketik secara statis dan dikembangkan oleh JetBrains. Kotlin sangat cocok untuk pengembangan aplikasi Android, menggantikan Java sebagai bahasa utama di ekosistem Android. Kotlin juga sering digunakan untuk pengembangan back-end dengan kerangka kerja seperti Ktor.</item>
+        <item>Ruby adalah bahasa pemrograman dinamis dan open-source yang berfokus pada kesederhanaan dan produktivitas. Ruby cocok untuk membangun aplikasi web dengan cepat, terutama dengan menggunakan kerangka kerja Ruby on Rails. Bahasa ini populer di kalangan startup dan pengembang yang membutuhkan kecepatan dalam pengembangan prototipe.</item>
+        <item>Rust adalah bahasa pemrograman sistem yang berfokus pada keamanan dan kinerja. Rust sangat cocok untuk pengembangan sistem tingkat rendah seperti sistem operasi, perangkat lunak server, dan aplikasi berkinerja tinggi. Bahasa ini juga sering digunakan untuk pengembangan perangkat lunak yang membutuhkan keamanan memori yang ketat.</item>
+        <item>Go (atau Golang) adalah bahasa pemrograman open-source yang dirancang di Google. Go cocok untuk membangun layanan server-side yang skalabel, aplikasi berbasis cloud, serta arsitektur microservices. Bahasa ini sangat efisien dalam hal pemrosesan paralel dan cocok untuk pengembangan sistem yang membutuhkan performa tinggi.</item>
     </string-array>
+
 
     <string-array name="data_photo">
         <item>https://i.ibb.co.com/KGgw7qk/pythonlang.png</item>

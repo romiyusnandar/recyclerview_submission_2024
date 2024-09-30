@@ -1,5 +1,6 @@
 package com.ryu.programinglang.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,6 +8,7 @@ import com.bumptech.glide.Glide
 import com.ryu.programinglang.ProgramingLang
 import com.ryu.programinglang.R
 import com.ryu.programinglang.databinding.ItemRowBinding
+import com.ryu.programinglang.ui.DetailActivity
 
 class ProgramingLangAdapter(private val listProgramingLang: ArrayList<ProgramingLang>) : RecyclerView.Adapter<ProgramingLangAdapter.ListViewHolder>() {
 
@@ -31,8 +33,17 @@ class ProgramingLangAdapter(private val listProgramingLang: ArrayList<Programing
                 .load(photo)
                 .placeholder(R.drawable.default_placeholder)
                 .error(R.drawable.default_placeholder)
-                .override(70, 70)
+                .override(85, 85)
                 .into(binding.imgItemPhoto)
+
+            itemView.setOnClickListener{
+                val intentDetail = Intent(itemView.context, DetailActivity::class.java).apply {
+                    putExtra(DetailActivity.EXTRA_NAME, name)
+                    putExtra(DetailActivity.EXTRA_DESCRIPTION, description)
+                    putExtra(DetailActivity.EXTRA_PHOTO, photo)
+                }
+                itemView.context.startActivity(intentDetail)
+            }
         }
     }
 }
