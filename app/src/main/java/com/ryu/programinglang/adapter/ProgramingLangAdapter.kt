@@ -31,7 +31,7 @@ class ProgramingLangAdapter(private val listProgramingLang: ArrayList<Programing
                 .load(photo)
                 .placeholder(R.drawable.default_placeholder)
                 .error(R.drawable.default_placeholder)
-                .override(120, 120)
+                .override(70, 70)
                 .into(binding.imgItemPhoto)
         }
     }

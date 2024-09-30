@@ -2,11 +2,11 @@ package com.ryu.programinglang.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Bundle
-import android.text.Html
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -14,11 +14,15 @@ import com.bumptech.glide.Glide
 import com.ryu.programinglang.R
 import com.ryu.programinglang.databinding.ActivityAboutBinding
 import com.ryu.programinglang.utility.UiUtils
+import java.time.LocalDate
+import java.util.Locale
+import java.time.format.DateTimeFormatter
 
 class AboutActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityAboutBinding
 
+    @SuppressLint("NewApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         UiUtils.setupStatusBar(this)
@@ -39,6 +43,24 @@ class AboutActivity : AppCompatActivity() {
         binding.tvEmail.setOnClickListener {
             openEmailClient(getString(R.string.email_title))
         }
+
+        val appVersion = try {
+            val packageInfo = packageManager
+                .getPackageInfo(packageName, 0)
+            packageInfo.versionName
+        } catch (e: PackageManager.NameNotFoundException) {
+            e.printStackTrace()
+            getString(R.string.release_version)
+        }
+        binding.tvAppVersion.text = appVersion
+
+        val currentDate = LocalDate.now()
+        val formatter = DateTimeFormatter.ofPattern("EEEE, dd MMMM yyyy",
+            Locale("id", "ID")
+        )
+        val formattedDate = currentDate.format(formatter)
+
+        binding.tvReleaseDate.text = formattedDate
 
     }
 
