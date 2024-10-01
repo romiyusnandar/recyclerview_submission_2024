@@ -16,8 +16,8 @@
         
         <ImageView
             android:id="@+id/img_item_photo"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:scaleType="centerInside"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
             android:layout_height="0dp"
             android:ellipsize="end"
             android:maxLines="3"
-            android:textSize="12sp"
+            android:textSize="14sp"
             android:justificationMode="inter_word"
             android:text="@string/description"
             app:layout_constraintBottom_toBottomOf="@+id/img_item_photo"
