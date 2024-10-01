@@ -8,11 +8,17 @@
     <string name="email_title">yusromi04@gmail.com</string>
     <string name="about_title">About Me</string>
     <string name="email_missing">Aplikasi email tidak ditemukan</string>
-    <string name="internet_missing">Akses internet diperlukan</string>
+    <string name="internet_missing">Harap sambungkan ke internet</string>
     <string name="app_version_title">App info</string>
     <string name="release_version">Versi Aplikasi</string>
     <string name="release_day">Dibuild Pada</string>
     <string name="detail_title">Detail</string>
+    <string name="description_title">Deskripsi</string>
+    <string name="date">Tahun dibuat</string>
+    <string name="founder">Penemu</string>
+    <string name="developer">Developer</string>
+    <string name="version">Versi terbaru</string>
+    <string name="history_title">Sejarah</string>
 
     <string-array name="data_title">
         <item>Python</item>
@@ -40,7 +46,6 @@
         <item>Go (atau Golang) adalah bahasa pemrograman open-source yang dirancang di Google. Go cocok untuk membangun layanan server-side yang skalabel, aplikasi berbasis cloud, serta arsitektur microservices. Bahasa ini sangat efisien dalam hal pemrosesan paralel dan cocok untuk pengembangan sistem yang membutuhkan performa tinggi.</item>
     </string-array>
 
-
     <string-array name="data_photo">
         <item>https://i.ibb.co.com/KGgw7qk/pythonlang.png</item>
         <item>https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png</item>
@@ -54,4 +59,55 @@
         <item>https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png</item>
     </string-array>
 
+    <string-array name="data_history">
+        <item>1991</item>
+        <item>1995</item>
+        <item>1991</item>
+        <item>2000</item>
+        <item>2014</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>1995</item>
+        <item>2006</item>
+        <item>2009</item>
+    </string-array>
+
+    <string-array name="data_founder">
+        <item>Guido van Rossum</item>
+        <item>Brendan Eich</item>
+        <item>James Gosling</item>
+        <item>Anders Hejlsberg</item>
+        <item>Christopher Arthur Lattner</item>
+        <item>Anders Hejlsberg</item>
+        <item>JetBrains</item>
+        <item>Yukihiro Matsumoto</item>
+        <item>Graydon Hoare</item>
+        <item>Robert Griesemer, Rob Pike, Ken Thompson</item>
+    </string-array>
+
+    <string-array name="data_developed">
+        <item>Python Software Foundation</item>
+        <item>Mozilla Foundation</item>
+        <item>Oracle Corporation</item>
+        <item>Microsoft</item>
+        <item>Apple Inc.</item>
+        <item>Microsoft</item>
+        <item>JetBrains</item>
+        <item>Ruby Association</item>
+        <item>Rust Project Developers</item>
+        <item>Google</item>
+    </string-array>
+
+    <string-array name="data_version">
+        <item>3.12.0</item>
+        <item>ECMAScript 2023 (ES13)</item>
+        <item>Java 23</item>
+        <item>12.0</item>
+        <item>5.10</item>
+        <item>5.6</item>
+        <item>2.0</item>
+        <item>3.3</item>
+        <item>1.73</item>
+        <item>1.21</item>
+    </string-array>
 </resources>

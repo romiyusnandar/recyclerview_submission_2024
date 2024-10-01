@@ -52,9 +52,14 @@ class MainActivity : AppCompatActivity() {
         val dataTitle = resources.getStringArray(R.array.data_title)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
+        val dataHistory = resources.getStringArray(R.array.data_history)
+        val dataFounder = resources.getStringArray(R.array.data_founder)
+        val dataDeveloper = resources.getStringArray(R.array.data_developed)
+        val dataVersion = resources.getStringArray(R.array.data_version)
+
         val listProgramingLang = ArrayList<ProgramingLang>()
         for (i in dataTitle.indices) {
-            val lang = ProgramingLang(dataTitle[i], dataDescription[i], dataPhoto[i])
+            val lang = ProgramingLang(dataTitle[i], dataDescription[i], dataPhoto[i], dataHistory[i], dataFounder[i], dataDeveloper[i], dataVersion[i])
             listProgramingLang.add(lang)
         }
         return listProgramingLang

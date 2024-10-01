@@ -7,5 +7,9 @@ import kotlinx.parcelize.Parcelize
 data class ProgramingLang(
     val name: String,
     val description: String,
-    val photo: String
+    val photo: String,
+    val history: String,
+    val founder: String,
+    val developed: String,
+    val version: String
 ) : Parcelable
