@@ -11,5 +11,7 @@ data class ProgramingLang(
     val history: String,
     val founder: String,
     val developed: String,
-    val version: String
+    val version: String,
+    val advantage: String,
+    val disadvantage: String
 ) : Parcelable

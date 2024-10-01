@@ -51,6 +51,8 @@
              android:textSize="14sp"
              android:padding="8dp"
              android:ellipsize="end"
+             android:lineSpacingExtra="8dp"
+             android:text="@string/description"
              android:justificationMode="inter_word"
              tools:ignore="UnusedAttribute" />
         <TextView
@@ -71,7 +73,6 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -96,7 +97,6 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -121,7 +121,6 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -146,7 +145,6 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 tools:ignore="UselessParent">
 
                 <TextView
@@ -169,6 +167,48 @@
                     tools:ignore="UnusedAttribute" />
             </TableRow>
         </TableLayout>
+
+        <TextView
+            android:id="@+id/tv_description_advantage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="@color/orange"
+            android:text="@string/advantage"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/tv_advantage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:lineSpacingExtra="8dp"
+            android:justificationMode="inter_word"
+            android:padding="8dp"
+            android:text="@string/advantage"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/tv_description_disadvantage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="@color/orange"
+            android:text="@string/disadvantage"
+            tools:ignore="UnusedAttribute" />
+        <TextView
+            android:id="@+id/tv_disadvantage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/disadvantage"
+            tools:ignore="UnusedAttribute" />
+
 
     </LinearLayout>
 

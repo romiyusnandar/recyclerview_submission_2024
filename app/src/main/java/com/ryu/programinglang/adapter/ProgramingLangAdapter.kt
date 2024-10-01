@@ -20,12 +20,12 @@ class ProgramingLangAdapter(private val listProgramingLang: ArrayList<Programing
     override fun getItemCount(): Int = listProgramingLang.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, photo, history, founder, developed, version) = listProgramingLang[position]
-        holder.bind(name, description, photo, history, founder, developed, version)
+        val (name, description, photo, history, founder, developed, version, advantage, disadvantage) = listProgramingLang[position]
+        holder.bind(name, description, photo, history, founder, developed, version, advantage, disadvantage)
     }
 
     class ListViewHolder(private val binding: ItemRowBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun bind(name: String, description: String, photo: String, history: String, founder: String, developed: String, version: String) {
+        fun bind(name: String, description: String, photo: String, history: String, founder: String, developed: String, version: String, advantage: String, disadvantage: String) {
             binding.tvTitle.text = name
             binding.tvDescription.text = description
 
@@ -45,6 +45,8 @@ class ProgramingLangAdapter(private val listProgramingLang: ArrayList<Programing
                     putExtra(DetailActivity.EXTRA_FOUNDER, founder)
                     putExtra(DetailActivity.EXTRA_DEVELOPED, developed)
                     putExtra(DetailActivity.EXTRA_VERSION, version)
+                    putExtra(DetailActivity.EXTRA_ADVANTAGE, advantage)
+                    putExtra(DetailActivity.EXTRA_DISADVANTAGE, disadvantage)
                 }
                 itemView.context.startActivity(intentDetail)
             }

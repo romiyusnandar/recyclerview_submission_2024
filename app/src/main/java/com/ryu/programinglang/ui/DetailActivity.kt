@@ -27,6 +27,8 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_FOUNDER = "extra_founder"
         const val EXTRA_DEVELOPED = "extra_developed"
         const val EXTRA_VERSION = "extra_version"
+        const val EXTRA_ADVANTAGE = "extra_advantage"
+        const val EXTRA_DISADVANTAGE = "extra_disadvantage"
     }
 
     @SuppressLint("SetTextI18n")
@@ -43,6 +45,8 @@ class DetailActivity : AppCompatActivity() {
         val programingFounder = intent.getStringExtra(EXTRA_FOUNDER)
         val programingDeveloper = intent.getStringExtra(EXTRA_DEVELOPED)
         val programingVersion = intent.getStringExtra(EXTRA_VERSION)
+        val programingAdvantage = intent.getStringExtra(EXTRA_ADVANTAGE)
+        val programingDisadvantage = intent.getStringExtra(EXTRA_DISADVANTAGE)
 
         supportActionBar?.title = "${getString(R.string.detail_title)} $programingLanguage"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -55,8 +59,12 @@ class DetailActivity : AppCompatActivity() {
         binding.tvFounder.text = programingFounder
         binding.tvDeveloper.text = programingDeveloper
         binding.tvVersion.text = programingVersion
+        binding.tvAdvantage.text = programingAdvantage
+        binding.tvDisadvantage.text = programingDisadvantage
 
         binding.tvDescriptionHistory.text = "${getString(R.string.history_title)} $programingLanguage"
+        binding.tvDescriptionAdvantage.text = "${getString(R.string.advantage)} $programingLanguage"
+        binding.tvDescriptionDisadvantage.text = "${getString(R.string.disadvantage)} $programingLanguage"
         Glide.with(this)
             .load(programingLangPhoto)
             .placeholder(R.drawable.default_placeholder)

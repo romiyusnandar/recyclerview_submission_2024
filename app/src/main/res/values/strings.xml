@@ -19,6 +19,8 @@
     <string name="developer">Developer</string>
     <string name="version">Versi terbaru</string>
     <string name="history_title">Sejarah</string>
+    <string name="advantage">Kelebihan</string>
+    <string name="disadvantage">Kekurangan</string>
 
     <string-array name="data_title">
         <item>Python</item>
@@ -110,4 +112,32 @@
         <item>1.73</item>
         <item>1.21</item>
     </string-array>
+
+    <string-array name="data_advantages">
+        <item>Mudah dipelajari dan dibaca, memiliki banyak library dan framework, digunakan secara luas untuk pengembangan web, sains data, dan AI/ML.</item>
+        <item>Mendukung pengembangan full-stack dengan Node.js, bekerja langsung di browser tanpa kompilasi, komunitas dan ekosistem besar, ideal untuk aplikasi web interaktif.</item>
+        <item>Platform-independen dengan dukungan "write once, run anywhere", banyak digunakan di aplikasi enterprise dan Android, stabil dan aman dengan manajemen memori otomatis.</item>
+        <item>Terintegrasi dengan ekosistem Microsoft, memiliki framework .NET yang kuat, mendukung pengembangan aplikasi desktop, web, dan mobile dengan performa yang baik.</item>
+        <item>Performa cepat dan aman, dirancang khusus untuk pengembangan iOS dan macOS, sintaksis modern dan mudah dibaca, dikembangkan langsung oleh Apple.</item>
+        <item>Superset dari JavaScript dengan tipe statis, meningkatkan keandalan dan skalabilitas kode, didukung oleh Microsoft dan komunitas besar, memudahkan debugging.</item>
+        <item>Sintaksis modern dan ringkas, interoperable dengan Java, pilihan resmi untuk pengembangan Android, mendukung pemrograman fungsional dan objektif.</item>
+        <item>Fokus pada kesederhanaan dan produktivitas, sintaksis sangat bersahabat bagi pemula, digunakan secara luas untuk pengembangan web dengan framework Ruby on Rails.</item>
+        <item>Aman dan efisien dalam penggunaan memori, mencegah kesalahan umum seperti null pointer dan data race, performa setara dengan C/C++ namun lebih aman, ideal untuk sistem yang membutuhkan kinerja tinggi.</item>
+        <item>Performa tinggi dengan garbage collection, kompiler cepat dan kode sederhana, ideal untuk layanan cloud dan aplikasi berskala besar, didukung dan dikembangkan oleh Google.</item>
+    </string-array>
+
+    <string-array name="data_disadvantages">
+        <item>Kinerja relatif lambat dibanding bahasa lain seperti C atau Java, tidak ideal untuk aplikasi mobile atau pengolahan intensif CPU, global interpreter lock (GIL) membatasi eksekusi thread secara paralel.</item>
+        <item>Sulit untuk debugging dan manajemen kesalahan, perbedaan perilaku antara browser, tidak memiliki tipe data statis sehingga rentan terhadap bug, bisa rumit dalam aplikasi skala besar tanpa TypeScript.</item>
+        <item>Verbose atau sintaksis yang panjang dan kompleks, membutuhkan banyak memori dan lebih lambat dibanding bahasa seperti C atau C++, ekosistem yang besar bisa membuat learning curve lebih curam.</item>
+        <item>Terikat dengan ekosistem Microsoft, kurang cross-platform di luar lingkungan .NET Core, konsumsi memori tinggi untuk aplikasi besar, kurang populer dibanding bahasa open-source lain di luar ekosistem Windows.</item>
+        <item>Kompatibilitas dengan bahasa lain masih terbatas, toolchain dan dukungan platform non-Apple kurang matang, sering terjadi perubahan signifikan dalam versi baru, yang membuat kode legacy sulit dipertahankan.</item>
+        <item>Waktu kompilasi lebih lama dibanding JavaScript, sintaksis tipe data yang rumit bagi pemula, bisa menambah kompleksitas proyek kecil, kadang membutuhkan konfigurasi yang lebih banyak.</item>
+        <item>Komunitas lebih kecil dibanding Java, alat pengembangan dan library masih berkembang, waktu kompilasi lebih lambat dibanding Java, kurang dikenal di luar pengembangan Android.</item>
+        <item>Performa lebih lambat dibanding bahasa lain seperti Java dan Go, tidak ideal untuk aplikasi berskala besar, ekosistem yang kecil untuk di luar pengembangan web, garbage collection yang kurang efisien.</item>
+        <item>Waktu kompilasi yang lama, kurva pembelajaran yang curam karena konsep peminjaman dan kepemilikan memori, lebih sedikit library dibanding C/C++ dan bahasa populer lainnya, ekosistem yang masih berkembang.</item>
+        <item>Tidak mendukung pemrograman generik, yang membuat kode boilerplate lebih banyak, kurang mendukung paradigma fungsional, fitur terbatas untuk pemrograman OOP (object-oriented programming), tidak sefleksibel dalam hal abstraksi dibanding bahasa lain.</item>
+    </string-array>
+
+
 </resources>
